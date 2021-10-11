@@ -1,0 +1,16 @@
+@media screen and (max-width: 575px) {
+  .intro {
+    .left {
+      .title {
+        font-size: 34px;
+        line-height: 55px;
+      }
+      .line {
+        margin: 0 auto;
+      }
+      .desc {
+        text-align: left;
+      }
+    }
+  }
+}

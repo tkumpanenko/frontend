@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  color: #000;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+}
+
+.container-fluid {
+  padding: 0 120px;
+}
+@media(max-width: 1099px ){
+  .container-fluid {
+    padding: 0 80px;
+  }
+}
+@media(max-width: 991px ){
+  .container-fluid {
+    padding: 0 50px;
+  }
+}
+@media(max-width: 575px ){
+  .container-fluid {
+    padding: 0 17px;
+  }
+}
+
+html {
+  margin-top: 0 !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+input {
+  //-webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.images {
+  object-position: center;
+  object-fit: cover;
+}
+
+/*settings*/
+@import "fonts";
+@import "var";
+
+/*over use blocks*/
+@import "header";
+@import "footer";
+@import "form";
+@import "home";
+@import "slider";
+
+/*pages*/
+
+/*media*/
+@import "media/820h";
+@import "media/1350";
+@import "media/1240";
+@import "media/1199";
+@import "media/991";
+@import "media/767";
+@import "media/575";
+@import "media/375";
+@import "media/320";

@@ -1,0 +1,5 @@
+import './scrolled'
+
+$(document).ready(() => {
+
+});

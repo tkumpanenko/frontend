@@ -1,0 +1,49 @@
+.footer {
+  padding: 49px 0 56px;
+  border-top: 2px solid #EEF0F4;
+  &_item {
+    .title {
+      font-family: Noto Sans, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 32px;
+      letter-spacing: -0.4px;
+      color: #A3ADBA;
+      margin-bottom: 12px;
+    }
+    .text  {
+      font-family: Noto Sans, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 32px;
+      letter-spacing: -0.4px;
+      color: #9EABBB;
+      display: flex;
+      flex-direction: column;
+      a {
+        font-family: Noto Sans, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        color: #9EABBB;
+        text-decoration: underline;
+      }
+      .tel {
+        text-decoration: none;
+        span {
+          color: #45494F;
+        }
+      }
+      .email {
+        text-decoration: none;
+        span {
+          color: #2E75FF;
+        }
+      }
+    }
+  }
+}
