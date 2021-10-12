@@ -81,6 +81,9 @@
         border: none;
         margin-right: 26px;
       }
+      & button:last-child {
+        margin-right: 0;
+      }
     }
   }
 }

@@ -46,4 +46,40 @@
       max-height: 505px;
     }
   }
+  .cards {
+    .card_section {
+      &--item {
+        max-width:280px;
+        padding: 15px;
+        img {
+          margin-right: 20px;
+        }
+        .name {
+          font-size: 14px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+  .slider {
+    #carouselExampleIndicators {
+      .carousel-indicators {
+        bottom: -35px;
+        right: unset;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        margin: 0 auto;
+      }
+      .buttons {
+        display: none;
+      }
+    }
+  }
+  .btn_section {
+    padding-bottom: 50px;
+    h2 {
+      font-size: 20px;
+    }
+  }
 }

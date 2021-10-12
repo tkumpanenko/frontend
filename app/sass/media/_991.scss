@@ -2,20 +2,24 @@
   .intro {
     .left {
       padding-top: 50px;
+
       .title {
         font-size: 30px;
         line-height: 40px;
         margin-bottom: 35px;
       }
+
       .line {
         margin-bottom: 30px;
       }
+
       .desc {
         font-size: 15px;
         line-height: 28px;
         margin-bottom: 40px;
       }
     }
+
     .own-col {
       display: flex;
       align-items: center;
@@ -23,16 +27,19 @@
   }
   .sub_intro {
     padding-bottom: 35px;
+
     .left {
       .small_title {
         font-size: 18px;
         line-height: 40px;
       }
+
       .desc {
         font-size: 17px;
         line-height: 32px;
       }
     }
+
     .own-col {
       display: flex;
       align-items: center;
@@ -40,15 +47,52 @@
   }
   .image_block {
     max-height: none;
+
     .own_col {
       align-items: center;
+
       .content {
         padding: 50px;
+
         .text {
           font-size: 14px;
           line-height: 30px;
         }
       }
+    }
+  }
+  .block_image {
+    .image_bg {
+      display: none;
+    }
+  }
+  .cards {
+    .card_section {
+      &--item {
+        max-width: 325px;
+        padding: 25px 25px;
+      }
+    }
+  }
+  .characteristic {
+    .characteristic_block {
+      padding: 25px;
+    }
+
+    .characteristic_block--item {
+      .text {
+        font-size: 15px;
+        line-height: 30px;
+      }
+    }
+  }
+  .contact {
+    padding: 50px 0;
+    h3 {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 43px;
+      text-align: center;
     }
   }
 }
